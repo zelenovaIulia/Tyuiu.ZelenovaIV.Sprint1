@@ -13,6 +13,17 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Tyuiu.ZelenovaIV.Sprint1.Task0.V0.Lib\Tyuiu.ZelenovaIV.Sprint1.Task0.V7.Lib.csproj" />
+    <ProjectReference Include="..\Tyuiu.ZelenovaIV.Sprint1.Task0.V0\Tyuiu.ZelenovaIV.Sprint1.Task0.V7.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="tyuiu.cources.programming.interfaces">
+      <HintPath>..\..\DLL\tyuiu.cources.programming.interfaces.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
     <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
   </ItemGroup>
 

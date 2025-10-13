@@ -1,11 +1,16 @@
-﻿namespace Tyuiu.ZelenovaIV.Sprint1.Task0.V0.Test
+﻿using Tyuiu.ZelenovaIV.Sprint1.Task0.V7.Lib;
+
+namespace Tyuiu.ZelenovaIV.Sprint1.Task0.V7.Test
 {
     [TestClass]
-    public sealed class DataServiceTest
+    public class DataServiceTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void VaidExpression()
         {
+            DataService ds = new DataService();
+            var res = ds.Calculate();
+            Assert.AreEqual(5, res);
         }
     }
 }
