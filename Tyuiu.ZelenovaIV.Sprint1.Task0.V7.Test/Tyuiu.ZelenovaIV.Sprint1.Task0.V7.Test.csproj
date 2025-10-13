@@ -14,7 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Tyuiu.ZelenovaIV.Sprint1.Task0.V0.Lib\Tyuiu.ZelenovaIV.Sprint1.Task0.V7.Lib.csproj" />
-    <ProjectReference Include="..\Tyuiu.ZelenovaIV.Sprint1.Task0.V0\Tyuiu.ZelenovaIV.Sprint1.Task0.V7.csproj" />
+    <ProjectReference Include="..\Tyuiu.ZelenovaIV.Sprint1.Task0.V7.Lib\Tyuiu.ZelenovaIV.Sprint1.Task0.V7.Lib.csproj" />
   </ItemGroup>
 
   <ItemGroup>
