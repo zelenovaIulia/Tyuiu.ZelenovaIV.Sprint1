@@ -2,12 +2,20 @@
 {
     private static void Main(string[] args)
     {
-        int i = 5;
+        int a = 2;
 
-        double f = 7.5;
+        int b = a - 3;
 
-        double dbl = 10.01;
+        int c = a + 1;
 
-        Console.WriteLine("i=" + i + "\\f=" + f + "\\dbl=" + dbl);
+        a = b + a - c;
+
+        c = c - (b + a);
+
+        b = b + a - 1;
+
+        int x = a + b + c;
+
+        Console.WriteLine(x);
     }
 }
