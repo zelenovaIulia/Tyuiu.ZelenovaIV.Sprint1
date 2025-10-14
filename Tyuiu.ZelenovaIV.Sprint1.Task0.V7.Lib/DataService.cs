@@ -6,7 +6,7 @@ namespace Tyuiu.ZelenovaIV.Sprint1.Task0.V7.Lib
     {
         public double Calculate()
         {
-            return 18 / 6 * 2 - (4 - 3);
+            return (18 / 6 * 2 - (4 - 3));
         }
     }
 }
