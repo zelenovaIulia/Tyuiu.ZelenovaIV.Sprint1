@@ -8,7 +8,7 @@ namespace Tyuiu.ZelenovaIV.Sprint1.Task3.V10.Lib
         {
             int rub = (int)number;
             int kopeek = (int)Math.Round((number - rub) * 100);
-            string sum = $"{rub}.{(int)Math.Round((number - rub) * 100)}";
+            string sum = $"{rub}.{(int)Math.Round((number - rub) * 10)}";
 
             return $"{sum} руб. - это {rub} руб. {kopeek} коп.";
         }
