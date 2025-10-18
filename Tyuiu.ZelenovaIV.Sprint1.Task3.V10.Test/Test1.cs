@@ -14,7 +14,7 @@ namespace Tyuiu.ZelenovaIV.Sprint1.Task3.V10.Test
             var res = ds.NumberToMoney(x);
 
             Assert.AreEqual("30.5 руб. - это 30 руб. 50 коп.", res);
-        
+
         }
     }
 }
