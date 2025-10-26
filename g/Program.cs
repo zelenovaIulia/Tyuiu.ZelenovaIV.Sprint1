@@ -1,11 +1,23 @@
-﻿internal class Program
-{
-    private static void Main(string[] args)
+﻿{
+    static void Main(string[] args)
+
     {
-        int x = 35;
 
-        x = x % 10;
+        int a = 0, b = 0, c = 0;
 
-        Console.WriteLine(x);
+        Console.WriteLine("Enter data");
+
+        a = Convert.ToInt32(Console.ReadLine());
+
+        b = Convert.ToInt32(Console.ReadLine());
+
+        c = Convert.ToInt32(Console.ReadLine());
+
+        int d = a + b + c;
+
+        a *= b;
+
+        Console.WriteLine("Result = {0}", a * c);
+
     }
 }
